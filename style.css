@@ -248,7 +248,7 @@ nav {
     }
     .right-section .image img:first-child{
         z-index: -2;
-        margin-top: -480px;
+        margin-top: -500px;
         margin-left: 20px;
     }
     .right-section .image img:last-child {
@@ -262,6 +262,7 @@ nav {
         color: #111B47;
         border-color: #111B47;
         z-index: 1;
+        font-size: 0.65rem;
     }
     
     .left-section .hero-text button.secondary:hover {
@@ -269,6 +270,13 @@ nav {
         color: white;
         border-color: #505F98;
         z-index: 1;
+    }
+    .left-section .hero-text button {
+        font-size: 0.65rem;
+    }
+    .hero-buttons{
+        display: flex;
+        flex-direction: row;
     }
 }
 
@@ -432,6 +440,7 @@ section {
     .section-two {
         flex-direction: column;
         text-align: center; /* Center align items on smaller screens */
+        padding: 50px;
     }
     
     .section-two-left img{
@@ -495,6 +504,7 @@ section {
     .section-three {
         flex-direction: column;
         text-align: center; /* Center align items on smaller screens */
+        padding: 50px;
     }
     
     .section-three-left img{
@@ -506,7 +516,7 @@ section {
         flex: none;
         width: 100%;
         padding: 0; /* Remove padding on smaller screens */
-        margin-bottom: 20px; /* Add space between sections */
+        margin-bottom: 10px; /* Add space between sections */
     }
     
     .section-three-right h1 {
@@ -514,7 +524,7 @@ section {
     }
     
     .section-three-right p {
-        font-size: 0.8rem; /* Adjust paragraph font size for smaller screens */
+        font-size: 0.7rem; /* Adjust paragraph font size for smaller screens */
     }
 }
 
@@ -558,6 +568,7 @@ section {
     .section-four {
         flex-direction: column;
         text-align: center; /* Center align items on smaller screens */
+        padding: 50px;
     }
     
     .section-four-left img{
