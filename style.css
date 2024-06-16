@@ -248,12 +248,12 @@ nav {
     }
     .right-section .image img:first-child{
         z-index: -2;
-        margin-top: -510px;
+        margin-top: -520px;
         margin-left: 20px;
     }
     .right-section .image img:last-child {
         z-index: -1;
-        margin-top: -480px;
+        margin-top: -500px;
         margin-left: 170px;
         opacity: 0.2;
     }
@@ -360,7 +360,8 @@ section {
     section {
         flex-direction: column;
         padding: 50px;
-        margin-top: 0px;
+        margin-top: -40px;
+        margin-bottom: -70px;
     }
     .section-one-left, .section-one-right {
         flex: none;
